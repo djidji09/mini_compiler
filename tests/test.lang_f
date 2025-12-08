@@ -1,0 +1,7 @@
+INT A;
+BOOL B;
+BEGIN
+A := 5;
+B := true;
+B:=A;
+END

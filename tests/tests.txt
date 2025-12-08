@@ -1,0 +1,95 @@
+Cas de test TP compilation.
+
+Programme vide
+***********************
+BEGIN END
+
+declaration variable
+***********************
+
+INT Sa ;
+BEGIN 
+INT A ; 
+END
+
+decalration constante
+*********************
+
+CONST INT Bs1=33
+CONST INT Bs2=-33
+CONST FLOAT Bs3= 33.12 
+CONST FLOAT Bs4= +33.12
+
+
+plusierus variable
+******************
+FLOAT A,B, ;     
+FLOAT C,D,,F ;
+BOOL ,S,F ;
+
+
+Test idf
+********
+
+FLOAT AA ;
+FLOAT aa
+FLOAT A’a ;
+FLOAT Aa__a
+INT Aa__
+INT a_
+FLOAT Moyenne_etudiant
+
+
+affectation
+***********
+A=(C+D)*A/B/C ;
+
+A=+C+D*A ;
+A=C+D*F/
+
+Inst if
+********
+
+If(A==8) ;
+If(A==8){ 
+A-- ;
+B++ ;
+} ;
+
+Inst if imbriqué
+***************** 
+(proposer exemple)
+
+Inst for
+*****************
+(proposer exemple)
+
+Inst for imbriqué
+*****************
+(proposer exemple)
+
+
+Idf non déclaré	BEGIN   A=67 ; END
+***************
+
+Double déclaration
+******************	
+INT A, B, B, C ;
+INT A ;
+FLOAT C ;
+
+Compatibilité de types	
+**********************
+INT A =8; FLOAT B=8.5 ; BOOL R ;
+B=A
+A=B ;A=R ; R=A ; A=B ;B=R ;
+A=5.9 ;
+
+Changement de valeur d’une constante	
+*************************************
+CONST INT A=55 ;
+INT B ;
+BEGIN
+A=5*7+1 ;
+A=B ;
+END

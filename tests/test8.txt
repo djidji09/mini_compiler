@@ -1,0 +1,8 @@
+BEGIN
+If(A == 8);                   // Error: if with just semicolon
+
+If(A == 8) {                  // Valid if syntax
+A--;
+B++;
+};
+END

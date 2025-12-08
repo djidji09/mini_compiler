@@ -1,0 +1,3 @@
+FLOAT A,B,;                   // Error: trailing comma
+FLOAT C,D,,F;                 // Error: double comma
+BOOL ,S,F;                    // Error: leading comma

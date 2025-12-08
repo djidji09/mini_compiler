@@ -1,0 +1,5 @@
+BEGIN
+A := (C + D) * A / B / C;     // Valid if variables declared
+A := +C + D * A;              // Valid if variables declared
+A := C + D * F/0;               // Error: incomplete expression (missing operand after /)
+END

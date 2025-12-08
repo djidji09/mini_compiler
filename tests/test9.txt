@@ -1,0 +1,8 @@
+INT I;
+INT A;
+
+BEGIN
+    For ( I := 0 ; I < 3 ; I++; ) {
+       A:=1;
+    }
+END

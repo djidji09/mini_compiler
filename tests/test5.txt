@@ -1,0 +1,9 @@
+FLOAT AA;                    
+FLOAT aa                     
+FLOAT A'a;                    
+FLOAT Aa__a;                  
+INT Aa__;                     
+INT a_;                       
+FLOAT Moyenne_etudiant_plus_long_name;  
+BEGIN
+END

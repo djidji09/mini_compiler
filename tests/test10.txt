@@ -1,0 +1,10 @@
+INT I;
+INT J;
+
+BEGIN
+    For ( I := 0 ; I < 3 ; I++ ) {
+        For ( J := 0 ; J < 2 ; J++ ) {
+            I := I;
+        };
+    };
+END
